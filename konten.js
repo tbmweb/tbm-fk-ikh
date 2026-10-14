@@ -215,3 +215,32 @@ window.TBM_DATA = {
     "kontak": true
   }
 };
+// === UPDATE OTOMATIS SEO & PERBAIKAN TEKS TBM FK IKH ===
+Object.assign(window.TBM_DATA, {
+  "nama": "TBM FK IKH",
+  "namaPanjang": "Tim Bantuan Medis FK IKH (tbm-fk-ikh)",
+  "pageTitle": "TBM FK IKH (tbm-fk-ikh) | Tim Bantuan Medis FK Institut Kesehatan Helvetia",
+  "pageDescription": "Website resmi TBM FK IKH (tbm-fk-ikh) – Tim Bantuan Medis Fakultas Kedokteran Institut Kesehatan Helvetia. Portal informasi kegiatan, pelatihan medis, pendaftaran, dan kemitraan.",
+  "siteDescription": "Website resmi TBM FK IKH (tbm-fk-ikh) – Tim Bantuan Medis Fakultas Kedokteran Institut Kesehatan Helvetia. Portal informasi kegiatan, pelatihan medis, pendaftaran, dan kemitraan.",
+  "description": "Website resmi TBM FK IKH (tbm-fk-ikh) – Tim Bantuan Medis Fakultas Kedokteran Institut Kesehatan Helvetia. Portal informasi kegiatan, pelatihan medis, pendaftaran, dan kemitraan.",
+  "footerCopyright": "TBM FK IKH Periode 2026/2027. Hak cipta dilindungi."
+});
+
+if (window.TBM_DATA.kegiatan && window.TBM_DATA.kegiatan[0]) {
+  window.TBM_DATA.kegiatan[0].deskripsi = "TBM 26/27 Fakultas Kedokteran Institut Kesehatan Helvetia menyelenggarakan rekrutmen anggota baru Angkatan 2024 melalui tiga stase seleksi: Diklat, Rescue, dan Medcom. Kegiatan ini menguji pengetahuan kegawatdaruratan medis dasar, kedisiplinan, ketahanan fisik dan mental, keterampilan evakuasi, komunikasi medis, serta kerja sama tim.\n\nHasil penilaian digunakan sebagai dasar penempatan anggota sesuai kompetensi dan minat, dengan ketentuan khusus bagi Divisi Humas dan Dana Usaha. Melalui proses kaderisasi yang terstruktur, TBM 26/27 berkomitmen membentuk relawan medis yang solid, responsif, berintegritas, dan siap berkontribusi dalam kegiatan kemanusiaan.";
+}
+
+if (window.TBM_DATA.berita && window.TBM_DATA.berita[0]) {
+  window.TBM_DATA.berita[0].judul = "TBM 26/27 FK IKH Gelar Seleksi Anggota Baru Angkatan 2024 melalui Tiga Stase";
+  window.TBM_DATA.berita[0].alt = "Dokumentasi kegiatan rekrutmen dan seleksi calon anggota TBM 26/27 Angkatan 2024 di lingkungan Fakultas Kedokteran Institut Kesehatan Helvetia, Medan, pada 10 Oktober 2026.";
+}
+
+if (window.TBM_DATA.galeri && window.TBM_DATA.galeri[0]) {
+  window.TBM_DATA.galeri[0].keterangan = "Suasana pelaksanaan seleksi calon anggota baru TBM 26/27 FK IKH melalui Stase Diklat, Rescue, dan Medcom pada 10 Oktober 2026 di lingkungan kampus Institut Kesehatan Helvetia, Medan.";
+  window.TBM_DATA.galeri[0].alt = "Peserta rekrutmen TBM 26/27 Angkatan 2024 mengikuti tahapan tes seleksi lapangan yang menguji keterampilan medis dasar, kesiapsiagaan, kedisiplinan, dan kerja sama tim.";
+}
+
+if (window.TBM_DATA.galeri && window.TBM_DATA.galeri[1]) {
+  window.TBM_DATA.galeri[1].judul = "Panitia Rekrutmen Anggota Baru TBM 26/27";
+  window.TBM_DATA.galeri[1].keterangan = "Dokumentasi panitia penyelenggara rekrutmen TBM 26/27 FK IKH Angkatan 2024 yang bertugas mengoordinasikan pelaksanaan seleksi, penilaian, dan kelancaran kegiatan pada 10 Oktober 2026.";
+}
